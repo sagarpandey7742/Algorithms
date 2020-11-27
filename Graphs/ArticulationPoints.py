@@ -35,9 +35,10 @@ def findArticulationPoints():
     print("Articulation Points")
     for i in range(V):
         if articulationPoints[i]:
-            print(i,end=" ")
+            print(i, end=" ")
 
 
+# # answer 0 3
 # graph[0].append(2)
 # graph[2].append(0)
 # graph[0].append(3)
@@ -45,21 +46,23 @@ def findArticulationPoints():
 # graph[1].append(0)
 # graph[0].append(1)
 # graph[2].append(1)
-# graph[2].append(4)
-# graph[4].append(2)
+# # graph[2].append(4)
+# # graph[4].append(2)
 # graph[1].append(2)
 # graph[3].append(4)
 # graph[4].append(3)
 
+# # answer 0 3
 # graph[1].append(0)
 # graph[0].append(2)
 # graph[2].append(1)
 # graph[0].append(3)
 # graph[3].append(4)
 
-graph[0].append(1)
-graph[1].append(2)
-graph[2].append(3)
+# # answer 1 2
+# graph[0].append(1)
+# graph[1].append(2)
+# graph[2].append(3)
 
 
 findArticulationPoints()
