@@ -1,5 +1,4 @@
 # For detecting cycles in undirected graphs
-
 # find() return the absolute parent of the current node
 # union() merges the disjoint sets such that new_rank = max(rank(a), rank(b))
 # where a and b are the sets being merged
@@ -39,3 +38,5 @@ edges = [[1, 2], [1, 3], [2, 3]]
 # edges = [[1, 2], [3, 4], [2, 3], [1, 5], [5, 4]]
 
 print(findRedundantConnection(edges))
+
+# Time Complexity: O(logN)
