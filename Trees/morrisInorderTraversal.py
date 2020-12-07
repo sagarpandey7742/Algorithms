@@ -14,6 +14,7 @@ def morrisInorderTraversal(root):
             current = current.right
         else:
             predecessor = current.left  # Finding the current's inorder predecessor
+            # i.e the last right most node in the left subtree that has right as None or right as current
             while predecessor.right and predecessor.right != current:
                 predecessor = predecessor.right
 
