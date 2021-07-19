@@ -18,4 +18,7 @@ def mcm(arr, i, j, ans):
 ans=10**10
 print(mcm(arr, 1, n-1, ans))
 
+for d in dp:
+    print(*d, sep='\t')
+
 
